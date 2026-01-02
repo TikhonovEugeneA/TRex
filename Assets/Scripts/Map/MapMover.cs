@@ -1,5 +1,4 @@
 using System.Collections;
-using NUnit.Framework;
 using UnityEngine;
 
 public class MapMover : MonoBehaviour
@@ -22,7 +21,7 @@ public class MapMover : MonoBehaviour
 
     private void Update()
     {
-        if (this.isPLay)
+        if (isPLay)
         {
             Vector3 position = transform.position;
             position = Vector3.Lerp(position, position + Vector3.left, Time.deltaTime * this.speed);
@@ -32,24 +31,24 @@ public class MapMover : MonoBehaviour
 
     private IEnumerator SpeedCounter()
     {
-        yield return new WaitForSeconds(this.nonBoostSpeedTime);
+        yield return new WaitForSeconds(nonBoostSpeedTime);
     
         while (true)
         {
             yield return new WaitForSeconds(0.1f);
-            this.speed += boostSpeedPerSecond / 10;
+            speed += boostSpeedPerSecond / 10;
 
-            this.speed = Mathf.Clamp(this.speed, this.minSpeed, this.maxSpeed);
+            speed = Mathf.Clamp(speed, minSpeed, maxSpeed);
         }
     }
 
     public void OnGameStart()
     {
         StartCoroutine(SpeedCounter());
-        this.isPLay = true;
+        isPLay = true;
     }
 
-    public void OnPause() => this.isPLay = false;
+    public void OnPause() => isPLay = false;
         
-    public void OnContinue() => this.isPLay = true;
+    public void OnContinue() => isPLay = true;
     }
