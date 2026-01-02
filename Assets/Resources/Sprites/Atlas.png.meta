@@ -340,7 +340,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_Chrome_Dinousaur_7
+      name: cactus_single_huge
       rect:
         serializedVersion: 2
         x: 308
@@ -362,12 +362,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_Chrome_Dinousaur_8
+      name: cactus_double_huge
       rect:
         serializedVersion: 2
         x: 338
         y: 18
-        width: 24
+        width: 51
         height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -387,13 +387,13 @@ TextureImporter:
       name: Sprites_Chrome_Dinousaur_9
       rect:
         serializedVersion: 2
-        x: 363
-        y: 18
-        width: 25
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 367
+        y: 0
+        width: 12
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48382676}
+      border: {x: 12, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -411,7 +411,7 @@ TextureImporter:
         serializedVersion: 2
         x: 394
         y: 18
-        width: 43
+        width: 75
         height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -455,7 +455,7 @@ TextureImporter:
         serializedVersion: 2
         x: 474
         y: 21
-        width: 44
+        width: 43
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -472,12 +472,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character__trex--jump
+      name: character__trex--jumpl
       rect:
         serializedVersion: 2
-        x: 518
+        x: 519
         y: 21
-        width: 44
+        width: 42
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -497,9 +497,9 @@ TextureImporter:
       name: character__trex--run-stage1
       rect:
         serializedVersion: 2
-        x: 562
+        x: 563
         y: 21
-        width: 44
+        width: 42
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -519,9 +519,9 @@ TextureImporter:
       name: character__trex--run-stage2
       rect:
         serializedVersion: 2
-        x: 606
+        x: 607
         y: 21
-        width: 44
+        width: 42
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -538,7 +538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_Chrome_Dinousaur_16
+      name: character__trex--dead
       rect:
         serializedVersion: 2
         x: 650
@@ -582,7 +582,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_Chrome_Dinousaur_18
+      name: character__trex--crouchrun-stage1
       rect:
         serializedVersion: 2
         x: 738
@@ -604,7 +604,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_Chrome_Dinousaur_19
+      name: character__trex--crouchrun-stage2
       rect:
         serializedVersion: 2
         x: 802
@@ -661,25 +661,25 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":2,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Sprites_Chrome_Dinousaur_10: 1341022054903245868
       Sprites_Chrome_Dinousaur_11: 3210999697281173209
-      Sprites_Chrome_Dinousaur_16: -3961268894918286622
       Sprites_Chrome_Dinousaur_17: -7478983090598697576
-      Sprites_Chrome_Dinousaur_18: -1043713386534023176
-      Sprites_Chrome_Dinousaur_19: -7744037046668144781
       Sprites_Chrome_Dinousaur_2: -1319229689813084879
       Sprites_Chrome_Dinousaur_3: 2585029021239229735
-      Sprites_Chrome_Dinousaur_7: 2616695720028004806
-      Sprites_Chrome_Dinousaur_8: -5748057855090869541
       Sprites_Chrome_Dinousaur_9: -9020587741837801094
       button__replay: 5362231720644929428
+      cactus_double_huge: -5748057855090869541
       cactus_double_small: 8781329118719456109
+      cactus_single_huge: 2616695720028004806
       cactus_single_small: -3416149584005311064
       cactus_triple_small: 7349034200645533870
+      character__trex--crouchrun-stage1: -1043713386534023176
+      character__trex--crouchrun-stage2: -7744037046668144781
+      character__trex--dead: -3961268894918286622
       character__trex--idle: -5755264669140536275
-      character__trex--jump: 2636611845479198760
+      character__trex--jumpl: 2636611845479198760
       character__trex--run-stage1: -5994116940715964176
       character__trex--run-stage2: 985855782547675397
       cloud: 6528871324421475819
