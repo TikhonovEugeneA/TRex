@@ -15,7 +15,10 @@ public class HighScorePresenter : MonoBehaviour
     {
         if (_highScoreText == null) _highScoreText = GetComponent<Text>();
     }
-    
+    public void OnDataLoaded(GameData data)
+    {
+        _highScoreText.text = $"{_prefix} {data.highScoreCount}";
+    }
     public void OnHighScoreChanged(int highScore) => _highScoreText.text = $"{_prefix}" + highScore.ToString("0000");
 
 }

@@ -230,7 +230,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_Chrome_Dinousaur_2
+      name: pterodactyl-stage1
       rect:
         serializedVersion: 2
         x: 90
@@ -252,7 +252,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_Chrome_Dinousaur_3
+      name: pterodactyl-stage2
       rect:
         serializedVersion: 2
         x: 141
@@ -406,7 +406,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_Chrome_Dinousaur_10
+      name: cactus_triple_huge
       rect:
         serializedVersion: 2
         x: 394
@@ -541,7 +541,7 @@ TextureImporter:
       name: character__trex--dead
       rect:
         serializedVersion: 2
-        x: 650
+        x: 651
         y: 21
         width: 44
         height: 47
@@ -663,17 +663,15 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":2,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Sprites_Chrome_Dinousaur_10: 1341022054903245868
       Sprites_Chrome_Dinousaur_11: 3210999697281173209
       Sprites_Chrome_Dinousaur_17: -7478983090598697576
-      Sprites_Chrome_Dinousaur_2: -1319229689813084879
-      Sprites_Chrome_Dinousaur_3: 2585029021239229735
       Sprites_Chrome_Dinousaur_9: -9020587741837801094
       button__replay: 5362231720644929428
       cactus_double_huge: -5748057855090869541
       cactus_double_small: 8781329118719456109
       cactus_single_huge: 2616695720028004806
       cactus_single_small: -3416149584005311064
+      cactus_triple_huge: 1341022054903245868
       cactus_triple_small: 7349034200645533870
       character__trex--crouchrun-stage1: -1043713386534023176
       character__trex--crouchrun-stage2: -7744037046668144781
@@ -684,6 +682,8 @@ TextureImporter:
       character__trex--run-stage2: 985855782547675397
       cloud: 6528871324421475819
       ground: -3786991714253440475
+      pterodactyl-stage1: -1319229689813084879
+      pterodactyl-stage2: 2585029021239229735
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

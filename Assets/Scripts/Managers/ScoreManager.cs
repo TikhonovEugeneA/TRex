@@ -61,6 +61,5 @@ using UnityEngine.Events;
      public void OnDataLoaded(GameData data)
      {
         highScoreCount = data.highScoreCount;
-        highScoreChanged?.Invoke(highScoreCount);
      }
  }

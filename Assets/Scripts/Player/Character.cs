@@ -31,6 +31,7 @@ public class Character : MonoBehaviour
         switch (other.gameObject.tag)
         {
             case "Obstacle":
+                characterSound.PlayDeadSound();
                 dead?.Invoke();
                 break;
         }

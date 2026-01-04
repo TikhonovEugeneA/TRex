@@ -7,7 +7,7 @@ public class DesktopLayerPresenter : MonoBehaviour
 
     private void Awake()
     {
-#if UNITY_STANDALONE_WIN
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR
         desktopLayer.SetActive(true);
 #endif
     }
