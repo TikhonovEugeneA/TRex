@@ -25,7 +25,7 @@ public class SaveManager : MonoBehaviour
     [SerializeField] private UnityEvent<GameData> dataLoaded;
     [SerializeField] private UnityEvent<GameData> dataSaved;
 
-    private void SaveDataToFile()
+    public void OnRestartLevel()
     {
         string json = JsonUtility.ToJson(gameData);
         File.WriteAllText(saveFilePath,json);
@@ -56,17 +56,6 @@ public class SaveManager : MonoBehaviour
             this.gameData = gameDataFromJson;
             dataLoaded?.Invoke(this.gameData);
         }
-    }
-
-    private void OnApplicationPause(bool pauseStatus)
-    {
-#if UNITY_ANDROID
-        SaveDataToFile();
-#endif
-    }
-    private void OnApplicationQuit()
-    {
-        SaveDataToFile();
     }
 
     public void OnHighScoreChanged(int highScore)

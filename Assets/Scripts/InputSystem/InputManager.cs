@@ -3,6 +3,9 @@ using UnityEngine.Events;
 
 public class InputManager : MonoBehaviour
 {
+    [Header("Game objects")]
+    [SerializeField] private GameObject mobileLayer;
+    [SerializeField] private GameObject desktopLayer;
 
     [Header("Settings")]
     [SerializeField] private bool isGameStarted;
