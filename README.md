@@ -43,14 +43,10 @@
 ## 2.2 Сборка через командную строку
 Для сборки приложения через командную строку нужно ввести команду в зависимости от платформы имеются следующие возможные решения: 
 ### 2.2.1 Для Windows:
-`& "Путь_до_Unity.exe" -batchmode -nographics -projectPath "Путь_до_исходного кода_проекта" -buildWindowsPlayer "Путь_куда_сохранить_сборку\MyGame.exe" -logfile "Путь_куда_поместить_информацию_по_сборке\build.log" -quit` 
+`& "/path/to/Unity" -batchmode -nographics -projectPath "/path/to/project" -buildWindowsPlayer "/path/to/build/MyGame" -logfile "/path/to/build.log" -quit` 
 > **Примечание:** Обычно при установке UnityHub путь до Unity.exe:
 `"C:\Program Files\Unity\Hub\Editor\Ваша_версия_Unity\Editor\Unity.exe"`
 ### 2.2.2 Для Linux:
-Команда такая же, как для ***Windows***.
-# 3. Готовая сборка под Windows:
-В репозитории есть готовая сборка под Windows, для ее установки нужно:
-1. Открыть браузер и ввести в поисковую строку
-`https://github.com/TikhonovEugeneA/TRex/tree/main/Builds`
-2. Скачать архив ***(Desktop.rar)*** и разархивировать;
-3. Запустить файл ***TRex.exe*** расположенного ***../Desktop/TRex.exe***.
+`/path/to/Unity -batchmode -nographics -projectPath "/path/to/project" -buildLinux64Player "/path/to/build/MyGame" -logFile "/path/to/build.log" -quit`
+### 2.2.3 Для Android
+`/path/to/Unity -batchmode -nographics -projectPath "/path/to/project" -buildTarget Android -buildPath "/path/to/build/app.apk" -logFile "/path/to/build.log" -quit`
